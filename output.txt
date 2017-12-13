@@ -5,6 +5,7 @@ com.follett.fsc.destiny.acceptance.cataloging.AssetCentralProcessingDPOTest
 com.follett.fsc.destiny.acceptance.circulation.ItemHistoryDPOTest 
 com.follett.fsc.destiny.acceptance.myinfo.MyStatusDPOTest 
 com.follett.fsc.destiny.acceptance.district.DistrictLicenseCheckDPOTest 
+com.follett.fsc.destiny.acceptance.common.LoginSSOTest 
 com.follett.fsc.destiny.acceptance.common.LoginSSO2Test 
 com.follett.fsc.destiny.acceptance.district.AESiteDPOTest 
 com.follett.fsc.destiny.acceptance.backoffice.JobManagerTest 
@@ -13,6 +14,7 @@ com.follett.fsc.destiny.acceptance.common.SynchronizerTokenTest
 com.follett.fsc.destiny.acceptance.cmdlineutils.CommandLineUtilTest 
 com.follett.fsc.destiny.acceptance.cmdlineutils.CommandLineUtil3CPTest 
 com.follett.fsc.destiny.acceptance.common.CustomReportsTest 
+com.follett.fsc.destiny.acceptance.district.DistrictAccessLevelsCPTest 
 com.follett.fsc.destiny.acceptance.circulation.ViewRequestsOneOfEveryKindTest 
 com.follett.fsc.destiny.acceptance.circulation.ViewRequestsOneOfEveryKindMultipleAssociationTest 
 com.follett.fsc.destiny.acceptance.cataloging.InstructionalClassificationNeverBarcodeTest 
@@ -45,6 +47,8 @@ com.follett.fsc.destiny.acceptance.consortium.AEDConsortiumTest
 com.follett.fsc.destiny.acceptance.circulation.CheckInTextbookCPTest 
 com.follett.fsc.destiny.acceptance.cataloging.MediaSearchDPOTest 
 com.follett.fsc.destiny.acceptance.cataloging.VisualSearchElementaryTest 
+com.follett.fsc.destiny.acceptance.conversion.ExtractSiteCPTest 
+com.follett.fsc.destiny.acceptance.conversion.ExtractTextLinkCPTest 
 com.follett.fsc.destiny.acceptance.cataloging.ZServerAllianceForSagebrushTest 
 com.follett.fsc.destiny.acceptance.district.SystemHealthReportTest 
 com.follett.fsc.destiny.acceptance.circulation.FineHistory2Test 
@@ -121,6 +125,7 @@ com.follett.fsc.destiny.acceptance.circulation.DRM_CheckoutResourceContainerTest
 com.follett.fsc.destiny.acceptance.cataloging.ThirdPartyVendorTest 
 com.follett.fsc.destiny.acceptance.cataloging.FollettShelfIntegrationTest 
 com.follett.fsc.destiny.acceptance.circulation.Renew2DPOTest 
+com.follett.fsc.destiny.acceptance.cataloging.PatronCircReportFollettShelfEmailTest 
 com.follett.fsc.destiny.acceptance.cataloging.ExportMyListsToCollectionsTest 
 com.follett.fsc.destiny.acceptance.backoffice.WeedingLog2Test 
 com.follett.fsc.destiny.acceptance.backoffice.EContentStatisticsReports2Test 
@@ -140,6 +145,7 @@ com.follett.fsc.destiny.acceptance.conversion.ConversionFinesTest
 com.follett.fsc.destiny.acceptance.conversion.ConversionCircTypeTest 
 com.follett.fsc.destiny.acceptance.conversion.ConversionImportTBSiteDPOTest 
 com.follett.fsc.destiny.acceptance.common.HttpsMiniTest 
+com.follett.fsc.destiny.acceptance.conversion.ConversionBibCopyDPOTest 
 com.follett.fsc.destiny.acceptance.common.DestinySecurityPasswordDistrictTest 
 com.follett.fsc.destiny.acceptance.cataloging.RecommendBookToOtherTest 
 com.follett.fsc.destiny.acceptance.cataloging.WishListTest 
@@ -157,6 +163,7 @@ com.follett.fsc.destiny.acceptance.backoffice.TextbookGroupsDPOTest
 com.follett.fsc.destiny.acceptance.cataloging.CategoryTest 
 com.follett.fsc.destiny.acceptance.circulation.FollettEBooksControlAccessTest 
 com.follett.fsc.destiny.acceptance.district.TMtoRMPreflightTest 
+com.follett.fsc.destiny.acceptance.circulation.BlockCirculationSSOTest 
 com.follett.fsc.destiny.acceptance.common.DistrictOptionsSSOTest 
 com.follett.fsc.destiny.acceptance.backoffice.SiteConfigSSOTest 
 com.follett.fsc.destiny.acceptance.backoffice.PatronCircReportEmailTest 
