@@ -8,12 +8,20 @@ import org.jsoup.nodes.Document;
 
 public class ParseDocument {
 	ArrayList<String> list = new ArrayList<String>();
-	public ArrayList<String> getList() {
-		return list;
-	}
+
 	ParseDocument(Document doc){
-		List<String> test = Arrays.asList(doc.toString().split("\n"));
-		for(String line: test) {
+		List<String> listOfLines = DocumentToList(doc);
+		ParseList(listOfLines);
+	}
+
+	// Turns the document into a list of lines
+	public List<String> DocumentToList(Document doc){
+		return Arrays.asList(doc.toString().split("\n"));
+	}
+
+	// Parses the list for "com.follett" to find the class path needed
+	public void ParseList(List<String> listOfLines) {
+		for(String line: listOfLines) {
 			if(line.contains("com.follett")) {
 				String classPath = line.substring(line.indexOf("com."), line.indexOf("["));
 				if(!list.contains(classPath)) {
@@ -21,6 +29,9 @@ public class ParseDocument {
 				}
 			}
 		}
-		System.out.println(list);
+	}
+
+	public ArrayList<String> getList() {
+		return list;
 	}
 }
