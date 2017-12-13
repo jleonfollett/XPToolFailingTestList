@@ -14,9 +14,9 @@ public class FileHelper {
 		writeLines(listOfLines);
 		closeFileWriters();
 	}
-
+	
 	public static void setupFileWriters() throws IOException{
-		fw = new FileWriter("output.txt");
+		fw = new FileWriter(Main.config.getProperty("output"));
 		bw = new BufferedWriter(fw);
 	}
 
