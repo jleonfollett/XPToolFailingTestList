@@ -17,7 +17,7 @@ public class ParseDocument {
 			if(line.contains("com.follett")) {
 				String classPath = line.substring(line.indexOf("com."), line.indexOf("["));
 				if(!list.contains(classPath)) {
-				list.add(classPath);
+					list.add(classPath);
 				}
 			}
 		}
