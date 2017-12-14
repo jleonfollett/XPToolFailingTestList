@@ -15,17 +15,17 @@ public class FileHelper {
 		closeFileWriters();
 	}
 	
-	public static void setupFileWriters() throws IOException{
-		fw = new FileWriter(Main.config.getProperty("output"));
+	private static void setupFileWriters() throws IOException{
+		fw = new FileWriter(Configuration.getProperty("output"));
 		bw = new BufferedWriter(fw);
 	}
 
-	public static void closeFileWriters() throws IOException{
+	private static void closeFileWriters() throws IOException{
 		bw.flush();
 		bw.close();
 	}
 
-	public static void writeLines(ArrayList<String> listOfLines) throws IOException{
+	private static void writeLines(ArrayList<String> listOfLines) throws IOException{
 		for(String line: listOfLines){
 			bw.write(line);
 			bw.newLine();
